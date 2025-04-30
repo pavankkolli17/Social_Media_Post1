@@ -1,0 +1,13 @@
+# Create .gitignore file
+echo "
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+ENV/
+.streamlit/
+.DS_Store
+" > .gitignore
